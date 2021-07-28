@@ -1,0 +1,29 @@
+{
+  "name": "kcPetAdoptionsBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CLMcCork/kcPetAdoptionsBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CLMcCork/kcPetAdoptionsBot/issues"
+  },
+  "homepage": "https://github.com/CLMcCork/kcPetAdoptionsBot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twitter": "^1.7.1"
+  }
+}
